@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Circles Sound Generator v1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+ 
+    <canvas class="canvas1" id="canvas1"> </canvas>
+<label for="noteSlider" class="noteLabel" id="noteLabel">Set Number of Notes</label>
+    <input type="range" name="noteSlider" class="noteSlider" id="noteSlider" min="2" max="25" step="1" value="15">
+
+
+    <label for="shapeSlider" class="shapeLabel" id="shapeLabel">Set Number of Beats</label>
+    <input type="range" name="shapeSlider" class="shapeSlider" id="shapeSlider" min="1" max="25" step="1" value="7">
+
+
+    <script src="note.js"></script>
+    <script src="shape.js"></script>
+    <script src="sound.js"></script>
+    <script src="utilities.js"></script>
+    <script src="vector.js"></script>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
